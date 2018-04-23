@@ -10,5 +10,9 @@ class Dog {
 
 class Test02A {
   public static void main(String[] args) {
+    Dog akita = new Dog();
+    akita.setName("HACHI-KOU");
+    akita.getName();
+    System.out.println("文字列の長さ：" + akita.name.length());
   }
 }
