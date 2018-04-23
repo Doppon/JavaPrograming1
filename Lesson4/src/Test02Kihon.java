@@ -15,7 +15,13 @@ class Test02Kihon {
     }
 
     ave = sum / data.length;
-    
+
     System.out.println("平均値：" + ave);
+
+    if ( ave >= 5 ) {
+      System.out.println("(more?less?)：" + "more");
+    } else {
+      System.out.println("(more?less?)：" + "less");
+    }
   }
 }
