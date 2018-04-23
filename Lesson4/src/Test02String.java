@@ -3,6 +3,9 @@ class Dog {
   void setName(String s) {
     name = s;
   }
+  String getName() {
+    return name;
+  }
 }
 
 class Test02A {
