@@ -1,7 +1,5 @@
-import javax.swing.*;
-import java.awt.BorderLayout;
-
 import javax.swing.JFrame;
+import java.awt.BorderLayout;
 
 class HelloWorld {
   public static void main(String args[]) {
