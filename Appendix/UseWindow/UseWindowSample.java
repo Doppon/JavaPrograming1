@@ -13,7 +13,7 @@ class HelloFrame extends JFrame {
     setTitle("Hello Frame");
     setSize(300, 200);
     setLocation(100, 50);
-    JFrame label1 = new JFrame("Hello World!");
-    add(label1);
+    JFrame label = new JFrame("Hello World!");
+    add(label);
   }
 }
