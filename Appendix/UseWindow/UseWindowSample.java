@@ -1,9 +1,9 @@
-import java.swing.*;
+import javax.swing.*;
 import java.awt.BorderLayout;
 
 import javax.swing.JFrame;
 
-class HellowWorld {
+class HelloWorld {
   public static void main(String args[]) {
     JFrame frame = new HelloFrame();
     frame.setVisible(true);
