@@ -11,6 +11,7 @@ class HelloSwing extends JFrame {
       
       label = new JLabel("Hello_Swing");
       label.setFont(new Font("Serif",Font.PLAIN,28));
+      label.setHorizontalAlignment(label.CENTER);
       this.add(label,BorderLayout.CENTER);
   }
 
