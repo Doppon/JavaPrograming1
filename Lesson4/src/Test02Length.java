@@ -1,5 +1,10 @@
 class Test02Length {
   public static void main(String args[]) {
-    System.out.println(args[0] + " " + args[1] + " " + args[2] + " " + args[3] + ".");
+    String message = "";
+    for(int i=0; i<3; i++) {
+      message += args[i] + " ";
+    }
+    message += args[3] + ".";
+    System.out.println(message);
   }
 }
