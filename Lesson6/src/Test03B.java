@@ -5,7 +5,7 @@ class Test03B{
     sakura.numOfLegs = 10;
     System.out.println(momo.numOfLegs);
 
-    System.out.println(memo.numOfLegs);
+    System.out.println(momo.numOfLegs);
     System.out.println(Dog3.showNumLegs());
   }
 }
