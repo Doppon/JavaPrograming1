@@ -14,10 +14,10 @@ class Saifu{
   public int okane = 0;
   private int zandaka = 10000;
   public void useCard(int i){
-    zandaka=zandaka-i;
+    zandaka = zandaka - i;
   }
   public void useCard(int i, double rishi){
-    zandaka=zandaka-(int)(i*rishi);
+    zandaka = zandaka - (int)(i*rishi);
   }
   public int showZandaka(){
     return zandaka;
