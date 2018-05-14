@@ -1,3 +1,4 @@
+/*
 package  com.shibaura.system;
 
 public class Car{
@@ -9,3 +10,4 @@ public class Car{
     return speed * 3600.0 / 1000.0; // converted to (km/h)
   }
 }
+*/

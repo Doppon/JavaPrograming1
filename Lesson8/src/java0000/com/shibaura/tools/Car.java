@@ -1,3 +1,4 @@
+/*
 package com.shibaura.tools;
 
 public class Car{
@@ -11,3 +12,4 @@ public class Car{
   }
 
 }
+*/
