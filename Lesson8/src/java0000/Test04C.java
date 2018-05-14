@@ -1,4 +1,4 @@
-import com.shibaura.tools.*;
+import com.shibaura.system.*;
 
 class Test04C{
   public static void main(String[] args){
