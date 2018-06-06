@@ -2,8 +2,8 @@
 public class MapMain {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Calculator mr = new Calculator("C:\\Users\\masaomi\\Desktop\\source.txt");
+		// source.txtはカレントディレクトリに存在する事を前提としてる。
+		Calculator mr = new Calculator("./source.txt");
 		long start = System.nanoTime();
 		mr.map(3);
 		try {
