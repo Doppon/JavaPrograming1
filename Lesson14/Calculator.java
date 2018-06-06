@@ -9,6 +9,7 @@ class Calculator{
 	Calculator(String fileName){
 		BufferedReader br = null;
 		String line = "";
+
 		try{
 			FileInputStream fi = new FileInputStream(fileName);
 			InputStreamReader is = new InputStreamReader(fi,"UTF-8");
@@ -54,4 +55,5 @@ class Calculator{
 		}
 	return sum;
 	}
+	
 }
