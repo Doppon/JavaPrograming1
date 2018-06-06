@@ -2,7 +2,6 @@
 public class MapMain {
 
 	public static void main(String[] args) {
-		// source.txtはカレントディレクトリに存在する事を前提としてる。
 		Calculator mr = new Calculator("./source.txt");
 		long start = System.nanoTime();
 		mr.map(3);
