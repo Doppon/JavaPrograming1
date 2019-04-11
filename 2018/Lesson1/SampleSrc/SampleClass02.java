@@ -13,6 +13,6 @@ class SampleClass02 {
 		Account myAccount = new Account();
 		myAccount.save(2000);
 		int j = myAccount.show();
-		System.out.println("預金："+j);
+		System.out.println("預金：" + j);
 		}
 }

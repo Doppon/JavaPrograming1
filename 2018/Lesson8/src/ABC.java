@@ -5,13 +5,13 @@ class A {
 }
 
 class B extends A{
-  B(){
+  B() {
     System.out.println("B");
   }
 }
 
-class C{
+class C {
   public static void main(String[] args){
-    B b= new B();
+    B b = new B();
   }
 }

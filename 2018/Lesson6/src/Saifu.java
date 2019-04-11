@@ -3,9 +3,9 @@ import java.io.*;
 class MainSaifu {
   public static void main(String[] args){
     Saifu a = new Saifu();
-    a.okane=100;
+    a.okane = 100;
     Saifu b = a;
-    b.okane=50;
+    b.okane = 50;
     System.out.println("aのお金:"+a.okane);
   }
 }
@@ -17,7 +17,7 @@ class Saifu{
     zandaka = zandaka - i;
   }
   public void useCard(int i, double rishi){
-    zandaka = zandaka - (int)(i*rishi);
+    zandaka = zandaka - (int)(i * rishi);
   }
   public int showZandaka(){
     return zandaka;
