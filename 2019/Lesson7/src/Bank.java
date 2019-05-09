@@ -17,3 +17,21 @@ class BankAccount {
         System.out.println(bank + okane + "yen");
     }
 }
+
+
+class ChokinBako {
+    int okane = 0;
+    boolean available = true;
+
+    void addOkane(int i) {
+        okane += 1;
+    }
+
+    void print() {
+        System.out.println(bank + okane + "yen");
+    }
+
+    boolean getAvailability() {
+        return available;
+    }
+}
