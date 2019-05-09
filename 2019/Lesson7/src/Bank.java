@@ -3,6 +3,15 @@ public class Bank {
 
     private static class BankAccount {
         int okane = 0;
+        /*
+        [src] $javac Bank.java 
+        Bank.java:27: エラー: シンボルを見つけられません
+        System.out.println(bank + okane + "yen");
+                        ^
+        シンボル:   変数 bank
+        場所: クラス ChokinBako
+        エラー1個
+        */
         String bank = "TokyoBank";
     
         void addOkane(int i) {
