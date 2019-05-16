@@ -4,16 +4,14 @@ class Test05B {
         BufferedReader bf = null;
         String strData = "";
         try{
-            try {
-                FileInputStream fI = new FileInputStream("Sample.txt");
-                InputStreamReader iS = new InputStreamReader(fI,"SJIS");
-                bf=new BufferedReader(iS);
-                while((strData=bf.readLine())!=null) {
-                    System.out.println(strData);
-                }                
-            } catch (FileNotFoundException e) {
-                System.out.println("ファイルがありません。");
-            }
+            FileInputStream fI = new FileInputStream("Sample.txt");
+            InputStreamReader iS = new InputStreamReader(fI,"SJIS");
+            bf=new BufferedReader(iS);
+            while((strData=bf.readLine())!=null) {
+                System.out.println(strData);
+            }                
+        } catch (FileNotFoundException e) {
+            System.out.println("ファイルがありません。");
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
