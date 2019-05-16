@@ -8,7 +8,12 @@ class Warizan {
         this.b = b;
     }
     int div() {
-        int r = this.a / this.b;
-        return r;
+        try {
+            int r = this.a / this.b;
+            return r;
+        } catch (ArithmeticException e) {
+            System.out.println("Divided by zero.");
+            return 0;
+        }
     }
 }
