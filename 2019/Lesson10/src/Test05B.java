@@ -17,6 +17,8 @@ class Test05B {
         } finally {
             try {
                 bf.close();
+            } catch (NullPointerException e) {
+                
             } catch (IOException e) {
                 e.printStackTrace();
             }
