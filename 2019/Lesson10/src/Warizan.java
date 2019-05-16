@@ -14,6 +14,9 @@ class Warizan {
         } catch (ArithmeticException e) {
             System.out.println("Divided by zero.");
             return 0;
+        } catch (Exception e) {
+            System.out.println("Other exception.");
+            return 0;
         }
     }
 }
