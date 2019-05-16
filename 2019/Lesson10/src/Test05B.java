@@ -12,6 +12,8 @@ class Test05B {
             }
         } catch (IOException e) {
             e.printStackTrace();
+        } catch (NullPointerException e) {
+            System.out.println("ファイルがありません。");
         } finally {
             try {
                 bf.close();
