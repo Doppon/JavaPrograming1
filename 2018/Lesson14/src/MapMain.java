@@ -1,6 +1,4 @@
-
 public class MapMain {
-
 	public static void main(String[] args) {
 		Calculator mr = new Calculator("./source.txt");
 		long start = System.nanoTime();
@@ -13,5 +11,4 @@ public class MapMain {
 		long end = System.nanoTime();
 		System.out.println("Time:" + (end - start) / 1000000f + "ms");
 	}
-
 }
