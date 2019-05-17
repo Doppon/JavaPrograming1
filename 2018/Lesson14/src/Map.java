@@ -33,5 +33,4 @@ public class Map extends Thread {
 		long end = System.nanoTime();
 		System.out.println("ThreadTime:" + (end - start) / 1000000f + "ms");
 	}
-
 }
