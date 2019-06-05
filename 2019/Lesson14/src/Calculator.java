@@ -32,7 +32,7 @@ class Calculator{
     
     long getSum() {
         try {
-            for(int j=0; j<datadataList.size(); j++) {
+            for(int j=0; j<dataList.size(); j++) {
                 dataList.get(j).join();
             }
         } catch (Exception e) {
