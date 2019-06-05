@@ -30,14 +30,14 @@ class Calculator{
         this.sum += sum;
     }
     
-    long getSum(){
-        try{
-            for(int j=0; j<datadataList.size(); j++){
+    long getSum() {
+        try {
+            for(int j=0; j<datadataList.size(); j++) {
                 dataList.get(j).join();
             }
-        }catch(Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
-        }finally{
+        } finally {
             return sum;
         }
     }
