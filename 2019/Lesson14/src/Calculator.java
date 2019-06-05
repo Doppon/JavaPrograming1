@@ -5,4 +5,24 @@ class Calculator{
     ArrayList<Integer> dataList = new ArrayList<Integer>();
     ArrayList<CalcNode> nodeList = new ArrayList<CalcNode>();
     long sum;
+
+    BufferedReader bf = null;
+    String fileName ="";
+    Calculator(String fileName) {
+        try {
+            FileInputStream fI = new FileInputStream(fileName);
+            InputStreamReader iS = new InputStreamReader(fI,"SJIS");
+            BufferedReader bf = new BufferedReader(iS);
+            while((fileName = bf.readLine()) != null)
+            as.add(Integer.parseInt(fileName));
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            try{
+                bf.close();
+            } catch(Exception e) {
+                e.printStackTrace();
+            }	    
+        }
+    }
 }
