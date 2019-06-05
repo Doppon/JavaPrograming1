@@ -25,4 +25,8 @@ class Calculator{
             }	    
         }
     }
+
+    synchronized void addSum(long sum){
+        this.sum += sum;
+    }
 }
