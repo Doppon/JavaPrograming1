@@ -41,8 +41,8 @@ class Calculator{
     
     long getSum() {
         try {
-            for(int j=0; j<dataList.size(); j++) {
-                dataList.get(j).join();
+            for(int j=0; j<nodeList.size(); j++) {
+                nodeList.get(j).join();
             }
         } catch (Exception e) {
             e.printStackTrace();
