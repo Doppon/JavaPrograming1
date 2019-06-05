@@ -14,7 +14,7 @@ class Calculator{
             InputStreamReader iS = new InputStreamReader(fI,"SJIS");
             BufferedReader bf = new BufferedReader(iS);
             while((fileName = bf.readLine()) != null)
-            as.add(Integer.parseInt(fileName));
+            dataList.add(Integer.parseInt(fileName));
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
