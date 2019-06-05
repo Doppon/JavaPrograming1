@@ -28,7 +28,7 @@ class Calculator{
 
     void createNodes(int n) {
         for(int i=0; i<n; i++) {
-            CalcNode node = new Node(this);
+            CalcNode node = new CalcNode(this);
             node.assign(dataList, n);
             nodeList.add(node);
             node.start();
