@@ -29,4 +29,16 @@ class Calculator{
     synchronized void addSum(long sum){
         this.sum += sum;
     }
+    
+    long getSum(){
+        try{
+            for(int j=0; j<datadataList.size(); j++){
+                dataList.get(j).join();
+            }
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            return sum;
+        }
+    }
 }
